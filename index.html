@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bytes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b9776118a.js" crossorigin="anonymous"></script>
+
+
+
+
+    <section id="languageandsearch">
+      <!-------------Search-------------->  
+        <section id="search">
+            <div class="searchandbutton">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="search-results"></div>
+            
+                <script src="script.js"></script>
+            </div>
+        </section>
+   
+
+
+    <!----------------------Language start------------------------------------------->
+        <div>
+            <div id="language-selector">
+                <li class="lan">
+                    <a><button id="language-button">Select Language</button></a>
+                     <ul class="language-menu">
+                        <li><a href="#">Bengali</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Gujarati</a></li>
+                        <li><a href="#">Hindi</a></li>
+                        <li><a href="#">Marathi</a></li>                        
+                        <li><a href="#">Tamil</a></li>
+                        <li><a href="#">Telugu</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    
+    </section>
+    
+       
+
+    <!--------------------Language finish------------------------------------>
+
+
+       
+
+
+    <style>
+        .slideshow-container {
+            width: 100%;
+            overflow: hidden;
+            position:relative;
+        }
+        .mySlides {
+            width:100%;
+            overflow:hidden;
+            display: none;
+
+        }
+        .mySlides img{
+            width:100%;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+        }
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .next {
+            right: 0;
+            border-radius: 0 3px 3px 0;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+<div id="mainheading">
+    <section id="logoandheading" >
+        <img id="logo" src="/images/logo1.jpg">
+        <div id="heading"> 
+            <h2>LegalKycBuddy</h2>            
+        </div>
+    </section>
+</div>
+<br>
+<br>
+<section id="menu"><ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page">Menu</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="Aboutus.html">About Us</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Laws.html">Laws</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="legalqueries.html">Legal Queries</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="faqs.html">FAQ's</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="feedback.html">Feedback</a>
+      </li>
+  </ul>
+</section>
+
+<div class="slideshow-container">
+    <div class="mySlides firstSlideshow">
+        <img src="/images/g20logo.jpg" style="width:100%; height:200px">
+    </div>
+    <div class="mySlides">
+        <img src="/images/AzadikaAmritMahotsav.jpg" style="width:100%; height:200px">
+    </div>
+    <div class="mySlides">
+        <img src="/images/monuments.jpg" style="width:100%; height:200px">
+    </div>
+    <div class="mySlides">
+        <img src="/images/justice.jpg" style="width:100%; height:200px">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+
+<div style="display: flex;">
+<section>
+<div id="box1" class="box" >
+    <img src="/images/legal.jpg" class="card-img-top" height="200px" width=100%>
+    <div class="card-body">
+      <h3 class="card-title">Legal Awareness</h3><p>Legal Awareness, sometimes called public legal education or legal literacy, is the empowerment of individuals regarding issues involving the law.</p>
+      <a href="legalawareness.html"><button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
+    </a></div>
+  </div>
+</section>
+
+
+<section>
+  <div id="box2" class="box">
+    <img src="/images/kyc.jpg" class="card-img-top" height="200px" width=100%>
+    <div class="card-body">
+      <h3 class="card-title">KYC</h3><p>KYC means to 'know your customer' which is an effective way for an institution to confirm and thereby verify the authenticity of a customer.</p>
+      <a href="KYC.html">
+      <button style="background-color: skyblue; color: black; border-color: skyblue;" type="button" class="btn btn-success"><b>Know More</b></button>
+    </a>
+    </div>
+  </div>
+</section>
+</div>
+<br>
+<hr>
+<section id="lowermenu" style="background-color: black; width: 100%; height: 50px;">
+    <div style="display: flex; justify-content: center; text-align: center;">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
+        <a  style="color:white;text-decoration:none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link active" href="help.html">Help</a>
+        <a style="color:white; text-decoration: none; margin: 0 10px;"   class="flex-sm-fill text-sm-center nav-link" href="disclaimer.html">Disclaimer</a>
+        <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact us</a>
+        <a style="color: white; text-decoration: none; margin: 0 10px;" class="flex-sm-fill text-sm-center nav-link" href="websitepolicies.html">Website Policies</a>
+    </nav>
+      </div>
+</section>
+
+<div class="my2Slides">
+    <img src="/images/bottomimgindex.jpg" style="width:100%; height:200px">
+</div>
+
+
+
+<div class="copyrightbottom">
+    <p>Website is owned and content managed by <span>Smart Bytes</span></p>
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+
+
+
+
+</body> 
+</html>
